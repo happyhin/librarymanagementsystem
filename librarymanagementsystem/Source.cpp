@@ -1,3 +1,9 @@
+//#############################################################
+//#    SEHH2042 Group Project                                 #
+//#    Library Management System                              #
+//#                                                           #
+//#                                                           #
+//#############################################################
 #include <iostream>
 #include <fstream>	// for file input/output
 #include <string>
