@@ -56,7 +56,10 @@ void readCSV(string filename) {
 }
 
 int main() {
+	int booklistchoice, borrowerlistchoice;
 	string filename;
+
+	cout << "Import book list from file? [Y/N]: "; cin >> booklistchoice;
 
 	cout << "Input path to CSV file: ";
 	getline(cin, filename);				// Path with space is allowed
