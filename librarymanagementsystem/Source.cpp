@@ -65,8 +65,21 @@ void readCSV(string filename) {
 
 void managebook()
 {
+	cout << "*** Manage Books ***" << endl;
+	cout << "[1] Display books" << endl;
+	cout << "[2] Search book" << endl;
+	cout << "[3] Add book" << endl;
+	cout << "[4] Remove book" << endl;
+	cout << "[5] Back" << endl;
+	cout << "********************" << endl;
+	cout << "Option (1 - 5): "; cin >> option;
 
-
+	switch (option) {
+	case '1':
+	case '2':
+	case '3':
+	case '4':
+	case '5':
 }
 void manageborrowers()
 {
