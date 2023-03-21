@@ -55,6 +55,45 @@ void readCSV(string filename) {
 	inFile.close();
 }
 
+//
+
+
+
+
+
+//
+
+void managebook()
+{
+
+
+}
+void manageborrowers()
+{
+
+
+}
+void borrowbooks()
+{
+
+
+}
+void returnbooks()
+{
+
+
+}
+void useful()
+{
+
+
+}
+void memberlist()
+{
+
+
+}
+
 int main() {
 	char booklistchoice, borrowerlistchoice;
 	int option;
@@ -68,15 +107,25 @@ int main() {
 
 	do {
 		cout << "*** Library Management System ***" << endl;
-		cout << "[1] Manage books";
-		cout << "[2] Manage borrowers";
-		cout << "[3] Borrow book(s)";
-		cout << "[4] Return book(s)";
-		cout << "[5] Useful feature(s) added";
-		cout << "[6] Member List";
-		cout << "[7] Exit";
-		cout << "*********************************";
+		cout << "[1] Manage books" << endl;
+		cout << "[2] Manage borrowers" << endl;
+		cout << "[3] Borrow book(s)" << endl;
+		cout << "[4] Return book(s)" << endl;
+		cout << "[5] Useful feature(s) added" << endl;
+		cout << "[6] Member List" << endl;
+		cout << "[7] Exit" << endl;
+		cout << "*********************************" << endl;
 		cout << "Option (1 - 7): "; cin >> option;
+
+		switch (option) {
+		case '1': 
+		case '2':
+		case '3':
+		case '4':
+		case '5':
+		case '6':
+		case '7':
+		}
 
 	} while (option != 7);
 	return 0;
