@@ -60,13 +60,9 @@ int main() {
 	string filename;
 
 	cout << "Import book list from file? [Y/N]: "; cin >> booklistchoice;
-	while (booklistchoice = 'Y'){
-
+	while (booklistchoice != 'Y' && booklistchoice != 'N') {
+		cout << "Please enter Y or N.\n";
+		cout << "Import book list from file? [Y/N]: "; cin >> booklistchoice;
 	}
-
-	cout << "Input path to CSV file: ";
-	getline(cin, filename);				// Path with space is allowed
-	readCSV(filename);
-
 	return 0;
 }
