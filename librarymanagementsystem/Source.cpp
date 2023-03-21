@@ -57,6 +57,7 @@ void readCSV(string filename) {
 
 int main() {
 	char booklistchoice, borrowerlistchoice;
+	int option;
 	string filename;
 
 	cout << "Import book list from file? [Y/N]: "; cin >> booklistchoice;
@@ -66,10 +67,17 @@ int main() {
 	}
 
 	do {
-		cout << "*** Library Management System ***"
+		cout << "*** Library Management System ***" << endl;
+		cout << "[1] Manage books";
+		cout << "[2] Manage borrowers";
+		cout << "[3] Borrow book(s)";
+		cout << "[4] Return book(s)";
+		cout << "[5] Useful feature(s) added";
+		cout << "[6] Member List";
+		cout << "[7] Exit";
+		cout << "*********************************";
+		cout << "Option (1 - 7): "; cin >> option;
 
-
-
-	} while (choice != q);
+	} while (option != 7);
 	return 0;
 }
