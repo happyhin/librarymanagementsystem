@@ -1,2 +1,17 @@
 ﻿  Source.cpp
-  librarymanagementsystem.vcxproj -> C:\Users\hin20\source\repos\librarymanagementsystem\x64\Debug\librarymanagementsystem.exe
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(75,37): error C2065: 'option': 未宣告的識別項
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(77,10): error C2065: 'option': 未宣告的識別項
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(77,18): error C2050: switch 運算式不是整數
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(84,6): error C2601: 'manageborrowers': 區域函式定義不合法
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(67): message : 此行包含沒有相對應符號的 '{'
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(89,6): error C2601: 'borrowbooks': 區域函式定義不合法
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(67): message : 此行包含沒有相對應符號的 '{'
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(94,6): error C2601: 'returnbooks': 區域函式定義不合法
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(67): message : 此行包含沒有相對應符號的 '{'
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(99,6): error C2601: 'useful': 區域函式定義不合法
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(67): message : 此行包含沒有相對應符號的 '{'
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(104,6): error C2601: 'memberlist': 區域函式定義不合法
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(67): message : 此行包含沒有相對應符號的 '{'
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(110,5): error C2601: 'main': 區域函式定義不合法
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(67): message : 此行包含沒有相對應符號的 '{'
+C:\Users\hin20\source\repos\librarymanagementsystem\librarymanagementsystem\Source.cpp(67): fatal  error C1075: '{': 找不到任何相符的語彙基元

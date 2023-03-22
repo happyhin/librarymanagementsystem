@@ -79,7 +79,7 @@ void managebook()
 	case '2':
 	case '3':
 	case '4':
-	case '5':
+	case '5':return;
 }
 void manageborrowers()
 {
